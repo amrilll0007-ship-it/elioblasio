@@ -4,7 +4,7 @@ local Fling = true --// Recommended: true
 local FlingBlockInvisible = true --// Recommended: false (So you can see the flinging block)
 local HighlightFlingBlock = false --// Recommended: true
 local FlingHighlightColor = Color3.fromRGB(55,55,255) --// First is R, Second is G, Third is B
-local GunHatId = 4623059912 -- // (https://www.roblox.com/catalog/4623059912/METAL-x-LIGHTSEER-77)
+local GunHatId = 5410674378 -- // (https://www.roblox.com/catalog/5410674378/METAL-x-LIGHTSEER-77)
 --// GunHatId is the HatId you will use as the gun for the script, you must have the hat equipped.
 
 
