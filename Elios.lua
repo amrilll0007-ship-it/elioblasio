@@ -4,7 +4,7 @@ local Fling = true --// Recommended: true
 local FlingBlockInvisible = true --// Recommended: false (So you can see the flinging block)
 local HighlightFlingBlock = false --// Recommended: true
 local FlingHighlightColor = Color3.fromRGB(55,55,255) --// First is R, Second is G, Third is B
-local GunHatId = 5410674378 -- // (https://www.roblox.com/catalog/5410674378/METAL-x-LIGHTSEER-77)
+local GunHatId = 4623059912 -- // (https://www.roblox.com/catalog/4623059912/METAL-x-LIGHTSEER-77)
 --// GunHatId is the HatId you will use as the gun for the script, you must have the hat equipped.
 
 
@@ -254,7 +254,7 @@ tommygun.CFrame = RightArm.CFrame
 tommygun.CanCollide = false
 tommygun.Transparency=1
 tommygunweld = Instance.new("Weld",tommygun)
-GUN_A1=Align(GunHandle,tommygun,Vector3.new(),Vector3.new(115,-100,90))
+GUN_A1 = Align(GunHandle, tommygun, Vector3.new(-1.5, 0.6, 0), Vector3.new(50, -88, 0))
 tommygunweld.Part0 = tommygun
 tommygunweld.Part1 = RightArm
 tommygunweld.C0 = tommygun.CFrame:inverse() * RightArm.CFrame * CFrame.new(0,-.80,1.25) * CFrame.Angles(math.rad(98),math.rad(0),0)
